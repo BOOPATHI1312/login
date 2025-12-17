@@ -16,7 +16,7 @@ body {
   background: #0f2027;
 }
 
-/* Gradient background animation */
+
 body::before {
   content: "";
   position: absolute;
@@ -36,7 +36,7 @@ body::before {
   100% { background-position: 0% 50%; }
 }
 
-/* Floating and drifting bubbles */
+
 .bubbles {
   position: absolute;
   top: 0;
@@ -81,7 +81,7 @@ body::before {
   100% { transform: translateX(50px); }
 }
 
-/* Login box */
+
 .login-box {
   position: relative;
   width: 350px;
@@ -95,7 +95,6 @@ body::before {
   overflow: hidden; /* Needed for reflection */
 }
 
-/* Glossy moving reflection */
 .login-box::before {
   content: '';
   position: absolute;
@@ -122,7 +121,7 @@ body::before {
   100% { opacity: 1; transform: translateY(0); }
 }
 
-/* Input fields */
+
 .login-box h2 {
   text-align: center;
   color: #fff;
@@ -173,7 +172,7 @@ body::before {
   color: #00f2fe;
 }
 
-/* Button */
+
 .btn {
   width: 100%;
   padding: 10px;
